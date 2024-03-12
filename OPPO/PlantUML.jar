@@ -1,0 +1,30 @@
+@startuml
+!theme black-knight
+
+skin rose
+
+title Classes - Seas_Classes
+
+
+class sea
+{
+  +string name_of_sea
+  +double depth
+  +double salinity
+  +vector<sea> vect
+  +vector<fish> name_of_fish
+  +static vector<sea> read_sea(istream& ist)
+  +static string read_name_of_sea(istream& ist)
+  +static void write(vector<sea> vect, ostream& out)
+  +static vector<sea> initialization(istream& ist)
+}
+
+class fish
+{
+  +string nameoffish
+  +static bool is_valid_name_fish(const string& name)
+  +static vector<fish> read_fish(istream& ist)
+}
+sea o-- fish
+
+@enduml

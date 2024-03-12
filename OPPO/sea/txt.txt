@@ -1,0 +1,5 @@
+Severnoe 725.5 34.5
+Chernoe 2210.2 18.7
+Azovskoe 13.5 12.2
+Baltiyskoe 470.0 6.6
+Barencevo 628.1 34.7

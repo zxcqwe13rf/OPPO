@@ -1,0 +1,244 @@
+<mxfile host="app.diagrams.net" modified="2023-12-15T15:41:02.632Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.731 YaBrowser/23.11.1.731 Yowser/2.5 Safari/537.36" etag="v0hOYPtyMWhcTLYiCR6K" version="22.1.11" type="github">
+  <diagram name="Страница — 1" id="fyIkv1xnR3t7DIkPMojp">
+    <mxGraphModel dx="2422" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="25" y="510" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=-0.011;entryY=0.491;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Q-TupP9y3MPQKgEqneRt-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="138" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-3" value="Окно_авторизации" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="480" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-4" value="-Авторизовать пользователя" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Q-TupP9y3MPQKgEqneRt-3" vertex="1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-5" value="-Регистрация" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Q-TupP9y3MPQKgEqneRt-3" vertex="1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-6" value="Окно_выбора_&lt;br&gt;действий_админ" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="480" width="140" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-7" value="-Редактировать список путевок" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Q-TupP9y3MPQKgEqneRt-6" vertex="1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-8" value="-Просмотреть клиентов" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Q-TupP9y3MPQKgEqneRt-6" vertex="1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-9" value="-Просмотреть историю покупок заданного клиента" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Q-TupP9y3MPQKgEqneRt-6" vertex="1">
+          <mxGeometry y="90" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-43" value="-Редактировать список сотрудников" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Q-TupP9y3MPQKgEqneRt-6" vertex="1">
+          <mxGeometry y="140" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-10" value="-Выйти" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Q-TupP9y3MPQKgEqneRt-6" vertex="1">
+          <mxGeometry y="190" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.036;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Q-TupP9y3MPQKgEqneRt-4" target="Q-TupP9y3MPQKgEqneRt-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="540" as="sourcePoint" />
+            <mxPoint x="360" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-12" value="Авторизация администратора" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="315" y="488" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-13" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=-0.006;exitY=1.024;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.952;entryY=1.047;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Q-TupP9y3MPQKgEqneRt-10" target="Q-TupP9y3MPQKgEqneRt-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="650" as="sourcePoint" />
+            <mxPoint x="450" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="670" />
+              <mxPoint x="400" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-14" value="Нажата кнопка&amp;nbsp;&lt;br&gt;-Выйти" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="355" y="663" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="Q-TupP9y3MPQKgEqneRt-17" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="540" as="sourcePoint" />
+            <mxPoint x="870" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-16" value="Окно_редактирования&lt;br&gt;списка_путевок" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="493" width="140" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-17" value="-Добавить путевку" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Q-TupP9y3MPQKgEqneRt-16" vertex="1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-18" value="-Удалить путевку" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Q-TupP9y3MPQKgEqneRt-16" vertex="1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-19" value="-Изменить путевку" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Q-TupP9y3MPQKgEqneRt-16" vertex="1">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-20" value="-Принять изменения" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Q-TupP9y3MPQKgEqneRt-16" vertex="1">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-49" value="-Таблица списка путевок" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Q-TupP9y3MPQKgEqneRt-16" vertex="1">
+          <mxGeometry y="150" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-21" value="-Подтвердить изменения" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Q-TupP9y3MPQKgEqneRt-16" vertex="1">
+          <mxGeometry y="180" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-22" value="-Выйти" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Q-TupP9y3MPQKgEqneRt-16" vertex="1">
+          <mxGeometry y="210" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-23" value="Нажата кнопка&lt;br&gt;-Редактировать список путевок" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="740" y="493" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.028;entryY=0.574;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Q-TupP9y3MPQKgEqneRt-19" target="Q-TupP9y3MPQKgEqneRt-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="950" y="650" as="sourcePoint" />
+            <mxPoint x="1000" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-25" value="Нажата кнопка&lt;br&gt;-Выйти" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="785" y="553" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-26" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0.13;exitY=0.003;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Q-TupP9y3MPQKgEqneRt-16" target="Q-TupP9y3MPQKgEqneRt-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1010" y="490" as="sourcePoint" />
+            <mxPoint x="1050" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1050" y="470" />
+              <mxPoint x="1000" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-27" value="Изменения подтверждены и отправлены в БД путевок" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="785" y="414" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.797;entryY=-0.053;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="Q-TupP9y3MPQKgEqneRt-29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="710" as="sourcePoint" />
+            <mxPoint x="640" y="820" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-29" value="Окно_списка_клиентов" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="850" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-30" value="-Таблица списка клиентов" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Q-TupP9y3MPQKgEqneRt-29" vertex="1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-31" value="-Выйти" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Q-TupP9y3MPQKgEqneRt-29" vertex="1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.21;entryY=1.036;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.21;exitY=-0.046;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Q-TupP9y3MPQKgEqneRt-29" target="Q-TupP9y3MPQKgEqneRt-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="770" as="sourcePoint" />
+            <mxPoint x="610" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-33" value="Нажата кнопка&amp;nbsp;&lt;br&gt;-Просмотреть список клиентов" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="630" y="733" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-34" value="Нажата кнопка&amp;nbsp;&lt;br&gt;-Выйти" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="460" y="733" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-35" value="Окно_просмотра_истории&lt;br&gt;покупок_заданного_&lt;br&gt;клиента" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="190" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-36" value="-Поиск клиента" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Q-TupP9y3MPQKgEqneRt-35" vertex="1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-37" value="-Таблица покупок клиента" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Q-TupP9y3MPQKgEqneRt-35" vertex="1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-38" value="-Выйти" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Q-TupP9y3MPQKgEqneRt-35" vertex="1">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.787;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="Q-TupP9y3MPQKgEqneRt-38" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="480" as="sourcePoint" />
+            <mxPoint x="690" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-40" value="Нажата кнопка&amp;nbsp;&lt;br&gt;-Просмотреть историю покупок &lt;br&gt;заданного клиента" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="640" y="343" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.215;exitY=1.043;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.207;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Q-TupP9y3MPQKgEqneRt-38" target="Q-TupP9y3MPQKgEqneRt-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="430" as="sourcePoint" />
+            <mxPoint x="610" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-42" value="Нажата кнопка&amp;nbsp;&lt;br&gt;-Выйти" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="450" y="353" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-44" value="Окно_редактирования_&lt;br&gt;сотрудников" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="850" width="140" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-45" value="-Таблица списка сотрудников" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Q-TupP9y3MPQKgEqneRt-44" vertex="1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-50" value="-Добавить сотрудника" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Q-TupP9y3MPQKgEqneRt-44" vertex="1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-51" value="-Удалить сотрудника" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Q-TupP9y3MPQKgEqneRt-44" vertex="1">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-52" value="-Изменить информацию о сотруднике" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Q-TupP9y3MPQKgEqneRt-44" vertex="1">
+          <mxGeometry y="120" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-53" value="-Подтвердить изменения" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Q-TupP9y3MPQKgEqneRt-44" vertex="1">
+          <mxGeometry y="170" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-46" value="-Выйти" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Q-TupP9y3MPQKgEqneRt-44" vertex="1">
+          <mxGeometry y="200" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-47" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1.023;exitY=0.053;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.129;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Q-TupP9y3MPQKgEqneRt-10" target="Q-TupP9y3MPQKgEqneRt-44" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="730" as="sourcePoint" />
+            <mxPoint x="940" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830" y="700" />
+              <mxPoint x="840" y="700" />
+              <mxPoint x="850" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-48" value="Нажата кнопка&amp;nbsp;&lt;br&gt;-Редактировать список сотрудников" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="700" y="640" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-54" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.459;exitY=-0.003;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.008;entryY=0.132;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Q-TupP9y3MPQKgEqneRt-44" target="Q-TupP9y3MPQKgEqneRt-43" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="950" y="780" as="sourcePoint" />
+            <mxPoint x="900" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="780" />
+              <mxPoint x="970" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-55" value="Нажата кнопка&amp;nbsp;&lt;br&gt;-Выйти" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="763" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-56" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.011;exitY=0.608;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.031;entryY=0.414;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Q-TupP9y3MPQKgEqneRt-52" target="Q-TupP9y3MPQKgEqneRt-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="1010" as="sourcePoint" />
+            <mxPoint x="330" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="1010" />
+              <mxPoint x="300" y="1070" />
+              <mxPoint x="150" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-TupP9y3MPQKgEqneRt-57" value="Изменения подтверждены и отправлены в БД сотрудников" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="380" y="990" width="350" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
